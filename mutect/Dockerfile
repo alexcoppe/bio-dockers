@@ -1,4 +1,4 @@
-FROM anapsix/alpine-java
+FROM anapsix/alpine-java:7
 
 ENV package_name muTect-1.1.5
 
