@@ -1,9 +1,9 @@
 FROM anapsix/alpine-java
 
 
-ENV package_name picard-tools-2.1.0
+ENV package_name picard-tools-2.2.4
 
-ADD https://github.com/broadinstitute/picard/releases/download/2.1.0/${package_name}.zip /tmp/
+ADD https://github.com/broadinstitute/picard/releases/download/2.2.4/${package_name}.zip /tmp/
 
 RUN cd /opt/ && unzip /tmp/${package_name}.zip \
 	&& rm /tmp/${package_name}.zip \
