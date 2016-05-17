@@ -3,6 +3,13 @@
 [![](https://badge.imagelayers.io/alexcoppe/picard:latest.svg)](https://imagelayers.io/?images=alexcoppe/picard:latest 'Get your own badge on imagelayers.io')
 
 ### Usage:
+
+Docker Pull Command:
+
+```
+docker pull alexcoppe/picard
+```
+
 Example:
 
 ```
