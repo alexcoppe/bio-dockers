@@ -1,5 +1,5 @@
 # bio-dockers
 Dockerized bioinformatic tools
 
-* [MuTect](https://www.broadinstitute.org/cancer/cga/mutect) 1.1.5
-* [Picard Tools](http://broadinstitute.github.io/picard/) 2.2.4
+* [MuTect](https://github.com/alexcoppe/bio-dockers/tree/master/mutect) 1.1.5
+* [Picard Tools](https://github.com/alexcoppe/bio-dockers/tree/master/picard) 2.2.4
