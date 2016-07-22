@@ -1,7 +1,6 @@
 FROM anapsix/alpine-java:jdk8
 
 ENV maven_package_name apache-maven-3.3.9
-ENV gatk_package_name 3.6.zip
 ENV gatk_dir_name gatk-protected-3.6
 ENV gatk_version 3.6
 
@@ -10,8 +9,8 @@ ADD https://github.com/broadgsa/gatk-protected/archive/3.6.zip /tmp/
 
 RUN cd /opt/ && unzip /tmp/${maven_package_name}-bin.zip \
     && rm -rf /tmp/${maven_package_name}-bin.zip LICENSE NOTICE README.txt \
-    && cd /opt/ && unzip /tmp/${gatk_package_name} \
-    && rm -rf /tmp/${gatk_package_name}.zip \
+    && cd /opt/ && unzip /tmp/${gatk_version}.zip \
+    && rm -rf /tmp/${gatk_version}.zip \
     && cd /opt/${gatk_dir_name} && /opt/${maven_package_name}/bin/mvn verify -P\!queue \
     && mv /opt/${gatk_dir_name}/protected/gatk-package-distribution/target/gatk-package-distribution-${gatk_version}.jar /opt/GenomeAnalysisTK.jar \
     && rm -rf /opt/${gatk_dir_name} /opt/${maven_package_name}
