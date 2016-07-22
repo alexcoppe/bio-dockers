@@ -7,6 +7,8 @@ services:
 
 before_install:
     - docker build -t alexcoppe/fastqc fastqc/
+    - docker build -t alexcoppe/picard picard/
 
 script:
     - docker run -it --rm alexcoppe/fastqc
+    - docker run -it --rm alexcoppe/picard
