@@ -8,7 +8,9 @@ services:
 before_install:
     - docker build -t alexcoppe/fastqc fastqc/
     - docker build -t alexcoppe/picard picard/
+    - docker build -t alexcoppe/mutect mutect/
 
 script:
     - docker run -it --rm alexcoppe/fastqc
     - docker run -it --rm -v $(pwd):/data alexcoppe/picard SortVcf I=/data/test-data/sample.vcf O=/data/sorted.vcf 
+    - docker run -it --rm alexcoppe/mutect -h
