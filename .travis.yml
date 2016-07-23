@@ -11,4 +11,4 @@ before_install:
 
 script:
     - docker run -it --rm alexcoppe/fastqc
-    - docker run -it --rm alexcoppe/picard
+    - docker run -it --rm -v $(pwd):/data alexcoppe/picard SortVcf I=/data/test-data/sample.vcf O=/data/sorted.vcf 
