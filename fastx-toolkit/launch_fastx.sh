@@ -1,6 +1,8 @@
 #!/bin/bash
 
-AVAILABLE_COMMANDS=("fastq_to_fasta" "fastx_quality_stats" "fastx_nucleotide_distribution_graph" "fastx_clipper" "fastx_renamer" "fastx_trimmer" "fastx_collapser" "fastx_artifacts_filter" "fastq_quality_filter" "fastx_reverse_complement" "fasta_formatter" "fasta_nucleotide_changer")
+AVAILABLE_COMMANDS=("fastq_to_fasta" "fastx_quality_stats" "fastx_nucleotide_distribution_graph" "fastx_clipper" "fastx_renamer" "fastx_trimmer" "fastx_collapser" "fastx_artifacts_filter" "fastq_quality_filter" "fastx_reverse_complement" "fasta_formatter" "fasta_nucleotide_changer" "fasta_clipping_histogram.pl" "fastx_barcode_splitter.pl" "fastq_quality_boxplot_graph.sh" "fastx_nucleotide_distribution_graph.sh")
+
+
 if [[ " ${AVAILABLE_COMMANDS[@]} " =~ " $1 " ]]; then
     /usr/local/bin/$1 ${*:2:$#}
 else
