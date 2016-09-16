@@ -21,4 +21,4 @@ script:
     - docker run -it --rm alexcoppe/gatk -h
     - docker run -it --rm -v $(pwd):/data alexcoppe/samtools view /data/test-data/sample.bam seq2:450-550
     - docker run -it --rm alexcoppe/varscan
-    - docker run -it --rm -v $(pwd):/data alexcoppe/fastx view fastx_quality_stats -i /data/test-data/sample.fastq -o /data/stats.txt
+    - docker run -it --rm -v $(pwd):/data alexcoppe/fastx fastx_quality_stats -i /data/test-data/sample.fastq -o /data/stats.txt
