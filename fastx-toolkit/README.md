@@ -22,5 +22,4 @@ docker run --rm -it -v $(pwd):/data fastx fastx_nucleotide_distribution_graph.sh
 
 The above commands produce two png images with charts likes the following ones:
 
-<img src="nuc.png" >
-<img src="quality.ping" >
+<img src="nuc.png" ><img src="quality.png" >
