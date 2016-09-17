@@ -11,11 +11,11 @@ The non available commands are:
 Docker Pull Command:
 
 ```
-docker pull alexcoppe/fastx
+docker pull alexcoppe/fastx-toolkit-lite
 ```
 
 Example:
 
 ```
-docker run --rm -it -v $(pwd):/data alexcoppe/fastx fastx_quality_stats -i /data/in.fastq -o /data/output.txt
+docker run --rm -it -v $(pwd):/data alexcoppe/fastx-toolkit-lite fastx_quality_stats -i /data/in.fastq -o /data/output.txt
 ```
