@@ -3,13 +3,13 @@
 
 ### Usage:
 
-Docker Pull Command:
+#### Docker Pull Command:
 
 ```
 docker pull alexcoppe/circos
 ```
 
-Example:
+#### Example:
 
 To run an example from the circos package, download the original CIRCOS package and decompress it:
 ```
@@ -32,4 +32,8 @@ Run the docker container:
 ```
 docker run --rm -it -v $(pwd):/data alexcoppe/circos -conf /data/circos.conf -outputdir /data
 ```
-The command takes approximately 30 seconds to finish, you will find to image files in the current directory: circos.png and circos.svg
+The command takes approximately 30 seconds to finish, you will find to image in the current directory: circos.png (below) and circos.svg
+
+<p align="center">
+  <img src="circos.png" />
+</p>
