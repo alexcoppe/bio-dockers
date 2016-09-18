@@ -35,5 +35,5 @@ docker run --rm -it -v $(pwd):/data alexcoppe/circos -conf /data/circos.conf -ou
 The command takes approximately 30 seconds to finish, you will find to image in the current directory: circos.png (below) and circos.svg
 
 <p align="center">
-  <img src="circos.png" />
+  <img src="https://raw.githubusercontent.com/alexcoppe/bio-dockers/master/circos/circos.png" />
 </p>
