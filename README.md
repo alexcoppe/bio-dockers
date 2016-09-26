@@ -1,12 +1,14 @@
 # bio-dockers
-:whale: Dockerized bioinformatic tools.
+### :whale: Dockerized bioinformatic tools.
 
 [![Build Status](https://travis-ci.org/alexcoppe/bio-dockers.svg?branch=master)](https://travis-ci.org/alexcoppe/bio-dockers)
 
 A set of bioinformatics applications installed into a [Docker](https://www.docker.com) container, ready to be downloaded and used on any operating system 
 supported by [Docker](https://www.docker.com/).
+
 All images are based on the [official Alpine Linux Docker image](https://hub.docker.com/_/alpine/) 
 which is only 5 MB of size. The main goal is to obtain decently small portable bioinformatics software, easy to install and run.
+
 In order to use a container on your computer, [install](https://docs.docker.com/engine/installation/) 
 the Docker daemon and check the links in the table 
 below for instruction on how to pull the images from [Dockerhub](https://hub.docker.com/) and run them.
