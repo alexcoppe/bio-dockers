@@ -1,4 +1,4 @@
-## Dockerized  [samtools](http://www.htslib.org/)
+## Dockerized  [bwa](http://bio-bwa.sourceforge.net/)
 
 ### Usage:
 
