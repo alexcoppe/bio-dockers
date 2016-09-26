@@ -17,5 +17,4 @@ RUN apk add --update --no-cache ncurses \
         && rm -rf /var/cache/apk/* /tmp/* \
         && apk del deps
 
-CMD ["mem"]
 ENTRYPOINT ["/usr/bin/bwa"]
