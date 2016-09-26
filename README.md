@@ -7,6 +7,7 @@ Check links in the table below for instruction on how to run the docker images.
 
 | Program        | Description| Version |
 | ------------- |:-------------| :-------------|
+| [Burrows-Wheeler Aligner](http://bio-bwa.sourceforge.net/) |BWA is a software package for mapping low-divergent sequences against a large reference genome| 0.7.15 |
 | [CIRCOS](https://github.com/alexcoppe/bio-dockers/tree/master/circos) |A software package for visualizing data in a circular layout  | 0.69-3 |
 | [FastQC](https://github.com/alexcoppe/bio-dockers/tree/master/fastqc) | A quality control tool for high throughput sequence data | 0.11.5 |
 | [FASTX-Toolkit](https://github.com/alexcoppe/bio-dockers/tree/master/fastx-toolkit-lite) (lite) | A collection of command line tools for Short-Reads FASTA/FASTQ files preprocessing (lite version: no graphic commands) | 0.0.14 |
