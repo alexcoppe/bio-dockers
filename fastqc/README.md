@@ -9,8 +9,8 @@ Docker Pull Command:
 docker pull alexcoppe/fastqc
 ```
 
-Example (process all gzipped fastq files in current directory):
+Example (process reads.fastq.gz):
 
 ```
-docker run -it --rm  -v $(pwd):/data  alexcoppe/fastqc  data/*.fastq.gz
+docker run -it --rm  -v $(pwd):/data  alexcoppe/fastqc  data/reads.fastq.gz
 ```
