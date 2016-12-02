@@ -1,12 +1,8 @@
 FROM anapsix/alpine-java
 
 
-ENV version 2.5.0
+ENV version 2.7.1
 
-ADD https://github.com/broadinstitute/picard/releases/download/${version}/picard-tools-${version}.zip /tmp/
+ADD https://github.com/broadinstitute/picard/releases/download/${version}/picard.jar /opt/
 
-RUN cd /opt/ && unzip /tmp/picard-tools-${version}.zip \
-	&& rm /tmp/picard-tools-${version}.zip \
-	&& mv /opt/picard-tools-${version} /opt/picard-tools
-
-ENTRYPOINT ["java", "-jar", "/opt/picard-tools/picard.jar"]
+ENTRYPOINT ["java", "-jar", "/opt/picard.jar"]
