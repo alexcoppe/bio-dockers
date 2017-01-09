@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:3.4
 
 
 ENV libgtextutils_version 0.7
