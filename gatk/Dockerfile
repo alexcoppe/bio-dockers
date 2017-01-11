@@ -2,10 +2,10 @@ FROM anapsix/alpine-java:jdk8
 
 ENV maven_package_name apache-maven-3.3.9
 ENV gatk_dir_name gatk-protected
-ENV gatk_version 3.6
+ENV gatk_version 3.7
 
 ADD http://mirror.nohup.it/apache/maven/maven-3/3.3.9/binaries/apache-maven-3.3.9-bin.zip /tmp/
-ADD https://github.com/broadgsa/gatk-protected/archive/3.6.zip /tmp/
+ADD https://github.com/broadgsa/gatk-protected/archive/${gatk_version}.zip /tmp/
 
 RUN cd /opt/ && unzip /tmp/${maven_package_name}-bin.zip \
     && rm -rf /tmp/${maven_package_name}-bin.zip LICENSE NOTICE README.txt \
