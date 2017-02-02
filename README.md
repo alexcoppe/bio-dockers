@@ -24,5 +24,6 @@ below for instruction on how to pull the images from [Dockerhub](https://hub.doc
 | [MuTect](https://github.com/alexcoppe/bio-dockers/tree/master/mutect) | A method for the reliable and accurate identification of somatic point mutations in next generation sequencing data of cancer genomes  | 1.1.5 |
 | [Picard](https://github.com/alexcoppe/bio-dockers/tree/master/picard) | A set of command line tools for manipulating high-throughput sequencing (HTS) data and formats | 2.8.2 |
 | [Samtools](https://github.com/alexcoppe/bio-dockers/tree/master/samtools) | A suite of programs for interacting with high-throughput sequencing data | 1.3.1 |
+| [SnpEff](http://snpeff.sourceforge.net/) | Genetic variant annotation and effect prediction toolbox | 4.3i |
 | [VarScan](https://github.com/alexcoppe/bio-dockers/tree/master/varscan) | Variant detection in massively parallel sequencing data | 2.4.3 |
 
