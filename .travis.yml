@@ -16,6 +16,7 @@ before_install:
     - docker build -t alexcoppe/fastx-toolkit-lite fastx-toolkit-lite/
     - docker build -t alexcoppe/bwa bwa/
     - docker build -t alexcoppe/snpeff snpeff/
+    - docker build -t alexcoppe/snpsift snpsift/
 
 script:
     - docker run -it --rm alexcoppe/fastqc
@@ -28,3 +29,4 @@ script:
     - docker run -it --rm -v $(pwd):/data alexcoppe/fastx-toolkit-lite fastx_quality_stats -i /data/test-data/sample.fastq -o /data/stats.txt
     - docker run -it --rm -v $(pwd):/data alexcoppe/bwa index /data/test-data/sample.fasta
     - docker run -it --rm alexcoppe/snpeff eff -version
+    - docker run --rm -it alexcoppe/snpsift filter -version
