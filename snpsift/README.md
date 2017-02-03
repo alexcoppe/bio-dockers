@@ -1,4 +1,4 @@
-## Dockerized  [SnpEff](http://snpeff.sourceforge.net/SnpSift.html)
+## Dockerized  [SnpSift](http://snpeff.sourceforge.net/SnpSift.html)
 
 ### Usage:
 
