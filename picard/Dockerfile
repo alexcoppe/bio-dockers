@@ -1,10 +1,8 @@
 FROM anapsix/alpine-java
 
 
-ENV version 2.8.2
+ENV version 2.8.3
 
-ADD https://github.com/broadinstitute/picard/releases/download/${version}/picard-${version}.jar /opt
-RUN cd /opt \
-    && mv picard-${version}.jar picard.jar 
+ADD https://github.com/broadinstitute/picard/releases/download/${version}/picard.jar /opt
 
 ENTRYPOINT ["java", "-jar", "/opt/picard.jar"]
