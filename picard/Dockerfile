@@ -1,7 +1,7 @@
 FROM anapsix/alpine-java
 
 
-ENV version 2.8.3
+ENV version 2.9.0
 
 ADD https://github.com/broadinstitute/picard/releases/download/${version}/picard.jar /opt
 
