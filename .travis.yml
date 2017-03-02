@@ -31,4 +31,4 @@ script:
     - docker run -it --rm -v $(pwd):/data alexcoppe/bwa index /data/test-data/sample.fasta
     - docker run -it --rm alexcoppe/snpeff eff -version
     - docker run --rm -it alexcoppe/snpsift filter -version
-    - docker run --rm -it -v $(pwd):/data alexcoppe/bedtools intersectBed -a /data/sample.vcf -b /data/sample.vcf
+    - docker run --rm -it -v $(pwd):/data alexcoppe/bedtools intersectBed -a /data/test-data/sample.vcf -b /data/test-data/sample.vcf
