@@ -15,7 +15,7 @@ below for instruction on how to pull the images from [Dockerhub](https://hub.doc
 
 | Program        | Description| Version |
 | ------------- |:-------------| :-------------|
-| [bedtools](http://bedtools.readthedocs.io/en/latest/) |A powerful toolset for genome arithmetic| 2.26.0 |
+| [bedtools](https://github.com/alexcoppe/bio-dockers/tree/master/bedtools) |A powerful toolset for genome arithmetic| 2.26.0 |
 | [Burrows-Wheeler Aligner](https://github.com/alexcoppe/bio-dockers/tree/master/bwa) |BWA is a software package for mapping low-divergent sequences against a large reference genome| 0.7.15 |
 | [CIRCOS](https://github.com/alexcoppe/bio-dockers/tree/master/circos) |A software package for visualizing data in a circular layout  | 0.69-4 |
 | [FastQC](https://github.com/alexcoppe/bio-dockers/tree/master/fastqc) | A quality control tool for high throughput sequence data | 0.11.5 |
