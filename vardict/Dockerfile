@@ -2,10 +2,12 @@ FROM anapsix/alpine-java:jdk8
 
 ENV r_version 3.3.3
 ENV gradle_version 3.4.1
+ENV vardict_version 1.4.10
 ENV PATH=${PATH}:/opt/gradle/gradle-3.4.1/bin
 
 ADD https://services.gradle.org/distributions/gradle-${gradle_version}-bin.zip /tmp/
 ADD https://cran.r-project.org/src/base/R-3/R-${r_version}.tar.gz /tmp/
+ADD https://github.com/AstraZeneca-NGS/VarDictJava/archive/v${vardict_version}.tar.gz /tmp/
 COPY launch_vardict.sh /tmp/
 
 RUN     apk add --update --no-cache perl gfortran pcre xz-libs libbz2 \ 
@@ -20,11 +22,12 @@ RUN     apk add --update --no-cache perl gfortran pcre xz-libs libbz2 \
         && unzip -d /opt/gradle gradle-${gradle_version}-bin.zip \
         && rm /opt/gradle/gradle-${gradle_version}-bin.zip \
         && cd /tmp \
-        && git clone --recursive https://github.com/AstraZeneca-NGS/VarDictJava.git \
+        && tar xzvf v${vardict_version}.tar.gz && mv VarDictJava-${vardict_version} VarDictJava \
         && cd VarDictJava \
         && ./gradlew clean installApp \
         && rm -rf /var/cache/apk/* \
         && rm -rf /opt/gradle \
+        $$ rm -rf v${vardict_version}.tar.gz \
         && apk del deps \
         && cd /tmp/VarDictJava/VarDict \
         && ln -s ../build/install/VarDict/bin/VarDict .
