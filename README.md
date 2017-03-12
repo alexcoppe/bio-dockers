@@ -13,20 +13,20 @@ In order to use a container on your computer, [install](https://docs.docker.com/
 the Docker daemon and check the links in the table 
 below for instruction on how to pull the images from [Dockerhub](https://hub.docker.com/) and run them.
 
-| Program        | Description| Version |
-| ------------- |:-------------| :-------------|
-| [bedtools](https://github.com/alexcoppe/bio-dockers/tree/master/bedtools) |A powerful toolset for genome arithmetic| 2.26.0 |
-| [Burrows-Wheeler Aligner](https://github.com/alexcoppe/bio-dockers/tree/master/bwa) |BWA is a software package for mapping low-divergent sequences against a large reference genome| 0.7.15 |
-| [CIRCOS](https://github.com/alexcoppe/bio-dockers/tree/master/circos) |A software package for visualizing data in a circular layout  | 0.69-4 |
-| [FastQC](https://github.com/alexcoppe/bio-dockers/tree/master/fastqc) | A quality control tool for high throughput sequence data | 0.11.5 |
-| [FASTX-Toolkit](https://github.com/alexcoppe/bio-dockers/tree/master/fastx-toolkit-lite) (lite) | A collection of command line tools for Short-Reads FASTA/FASTQ files preprocessing (lite version: no graphic commands) | 0.0.14 |
-| [FASTX-Toolkit](https://github.com/alexcoppe/bio-dockers/tree/master/fastx-toolkit-lite) | A collection of command line tools for Short-Reads FASTA/FASTQ files preprocessing | 0.0.14 |
-| [gatk](https://github.com/alexcoppe/bio-dockers/tree/master/gatk) | A variety of tools with a primary focus on variant discovery and genotyping | 3.7 |
-| [MuTect](https://github.com/alexcoppe/bio-dockers/tree/master/mutect) | A method for the reliable and accurate identification of somatic point mutations in next generation sequencing data of cancer genomes  | 1.1.5 |
-| [Picard](https://github.com/alexcoppe/bio-dockers/tree/master/picard) | A set of command line tools for manipulating high-throughput sequencing (HTS) data and formats | 2.9.0 |
-| [Samtools](https://github.com/alexcoppe/bio-dockers/tree/master/samtools) | A suite of programs for interacting with high-throughput sequencing data | 1.3.1 |
-| [SnpEff](https://github.com/alexcoppe/bio-dockers/tree/master/snpeff) | Genetic variant annotation and effect prediction toolbox | 4.3i |
-| [SnpSift](https://github.com/alexcoppe/bio-dockers/tree/master/snpsift) | A toolbox that allows you to filter and manipulate annotated files | 4.3i |
-| [VarDictJava](https://github.com/alexcoppe/bio-dockers/tree/master/vardict) |  A variant discovery program written in Java and Perl. It is a partial Java port of VarDict variant caller | latest commit |
-| [VarScan](https://github.com/alexcoppe/bio-dockers/tree/master/varscan) | Variant detection in massively parallel sequencing data | 2.4.3 |
+| Program        | Description| Version | Image size |
+| ------------- |:-------------| :-------------| :-------------|
+| [bedtools](https://github.com/alexcoppe/bio-dockers/tree/master/bedtools) |A powerful toolset for genome arithmetic| 2.26.0 | 76.4 MB |
+| [Burrows-Wheeler Aligner](https://github.com/alexcoppe/bio-dockers/tree/master/bwa) |BWA is a software package for mapping low-divergent sequences against a large reference genome| 0.7.15 | 8.14 MB |
+| [CIRCOS](https://github.com/alexcoppe/bio-dockers/tree/master/circos) |A software package for visualizing data in a circular layout  | 0.69-4 | 186 MB |
+| [FastQC](https://github.com/alexcoppe/bio-dockers/tree/master/fastqc) | A quality control tool for high throughput sequence data | 0.11.5 | Na |
+| [FASTX-Toolkit](https://github.com/alexcoppe/bio-dockers/tree/master/fastx-toolkit-lite) (lite) | A collection of command line tools for Short-Reads FASTA/FASTQ files preprocessing (lite version: no graphic commands) | 0.0.14 | 12.6 MB |
+| [FASTX-Toolkit](https://github.com/alexcoppe/bio-dockers/tree/master/fastx-toolkit) | A collection of command line tools for Short-Reads FASTA/FASTQ files preprocessing | 0.0.14 | 77.2 MB |
+| [gatk](https://github.com/alexcoppe/bio-dockers/tree/master/gatk) | A variety of tools with a primary focus on variant discovery and genotyping | 3.7 | 289 MB |
+| [MuTect](https://github.com/alexcoppe/bio-dockers/tree/master/mutect) | A method for the reliable and accurate identification of somatic point mutations in next generation sequencing data of cancer genomes  | 1.1.5 | 134 MB |
+| [Picard](https://github.com/alexcoppe/bio-dockers/tree/master/picard) | A set of command line tools for manipulating high-throughput sequencing (HTS) data and formats | 2.9.0 | 147 MB |
+| [Samtools](https://github.com/alexcoppe/bio-dockers/tree/master/samtools) | A suite of programs for interacting with high-throughput sequencing data | 1.3.1 | 14.3 MB |
+| [SnpEff](https://github.com/alexcoppe/bio-dockers/tree/master/snpeff) | Genetic variant annotation and effect prediction toolbox | 4.3i | 300 MB |
+| [SnpSift](https://github.com/alexcoppe/bio-dockers/tree/master/snpsift) | A toolbox that allows you to filter and manipulate annotated files | 4.3i | 300 MB |
+| [VarDictJava](https://github.com/alexcoppe/bio-dockers/tree/master/vardict) |  A variant discovery program written in Java and Perl. It is a partial Java port of VarDict variant caller | latest commit | 631 MB |
+| [VarScan](https://github.com/alexcoppe/bio-dockers/tree/master/varscan) | Variant detection in massively parallel sequencing data | 2.4.3 | 124 MB |
 
