@@ -25,6 +25,8 @@ RUN     apk add --update --no-cache perl gfortran pcre xz-libs libbz2 \
         && tar xzvf v${vardict_version}.tar.gz && mv VarDictJava-${vardict_version} VarDictJava \
         && cd VarDictJava \
         && ./gradlew clean installApp \
+        && rm -rf VarDict \
+        && git clone https://github.com/AstraZeneca-NGS/VarDict.git \
         && rm -rf /var/cache/apk/* \
         && rm -rf /opt/gradle \
         $$ rm -rf v${vardict_version}.tar.gz \
