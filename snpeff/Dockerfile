@@ -1,6 +1,6 @@
-FROM anapsix/alpine-java:7
+FROM anapsix/alpine-java:8
 
-ENV package_version 4_3k
+ENV package_version 4_3m
 
 ADD https://downloads.sourceforge.net/project/snpeff/snpEff_v${package_version}_core.zip /tmp/
 
