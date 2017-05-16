@@ -2,7 +2,7 @@ FROM anapsix/alpine-java:jdk8
 
 ENV r_version 3.3.3
 ENV gradle_version 3.4.1
-ENV vardict_version 1.5.0
+ENV vardict_version 1.5.1
 ENV PATH=${PATH}:/opt/gradle/gradle-3.4.1/bin
 
 ADD https://services.gradle.org/distributions/gradle-${gradle_version}-bin.zip /tmp/
