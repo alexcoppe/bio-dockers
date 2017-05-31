@@ -1,7 +1,7 @@
 FROM alpine
 
 
-ENV version 1.4
+ENV version 1.4.1
 
 ADD https://github.com/samtools/samtools/releases/download/${version}/samtools-${version}.tar.bz2 /tmp
 
