@@ -1,6 +1,6 @@
 ## Dockerized  [Varscan](http://dkoboldt.github.io/varscan/)
 
-[VarScan] (http://dkoboldt.github.io/varscan/) is a software for variant detection in massively parallel sequencing data.
+[VarScan](http://dkoboldt.github.io/varscan/) is a software for variant detection in massively parallel sequencing data.
 
 ### Usage:
 
