@@ -23,7 +23,7 @@ below for instruction on how to pull the images from [Dockerhub](https://hub.doc
 | [FASTX-Toolkit](https://github.com/alexcoppe/bio-dockers/tree/master/fastx-toolkit) | A collection of command line tools for Short-Reads FASTA/FASTQ files preprocessing | 0.0.14 | 77.2 MB |
 | [gatk](https://github.com/alexcoppe/bio-dockers/tree/master/gatk) | A variety of tools with a primary focus on variant discovery and genotyping | 3.7 | 289 MB |
 | [MuTect](https://github.com/alexcoppe/bio-dockers/tree/master/mutect) | A method for the reliable and accurate identification of somatic point mutations in next generation sequencing data of cancer genomes  | 1.1.5 | 134 MB |
-| [Picard](https://github.com/alexcoppe/bio-dockers/tree/master/picard) | A set of command line tools for manipulating high-throughput sequencing (HTS) data and formats | 2.9.0 | 147 MB |
+| [Picard](https://github.com/alexcoppe/bio-dockers/tree/master/picard) | A set of command line tools for manipulating high-throughput sequencing (HTS) data and formats | 2.9.2 | 155 MB |
 | [Samtools](https://github.com/alexcoppe/bio-dockers/tree/master/samtools) | A suite of programs for interacting with high-throughput sequencing data | 1.4.1 | 15.2 MB |
 | [SnpEff](https://github.com/alexcoppe/bio-dockers/tree/master/snpeff) | Genetic variant annotation and effect prediction toolbox | 4.3o | 353 MB |
 | [SnpSift](https://github.com/alexcoppe/bio-dockers/tree/master/snpsift) | A toolbox that allows you to filter and manipulate annotated files | 4.3o | 353 MB |
