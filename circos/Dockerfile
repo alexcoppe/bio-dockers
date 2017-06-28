@@ -13,6 +13,7 @@ RUN     mkdir /opt && cd /opt/ \
         && cpanm Math::Bezier Math::Round Readonly::Tiny Readonly Config::General Params::Validate Font::TTF::Font Regexp::Common Math::VecStat Text::Format SVG Clone List::MoreUtils  \
         && cpanm -force GD Number::Format \
         && cpanm Statistics::Basic Set::IntSpan \
+        && cpanm -force Try::Tiny \
         && rm -rf /var/cache/apk/* /tmp/circos-${version}.tgz \
         && apk del deps
 
