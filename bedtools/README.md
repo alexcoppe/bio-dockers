@@ -1,6 +1,6 @@
 ## Dockerized  [bedtools](http://bedtools.readthedocs.io/en/latest/index.html)
 
-[bedtools] (http://bedtools.readthedocs.io/en/latest/index.html) bedtools: a powerful toolset for genome arithmetic
+[bedtools](http://bedtools.readthedocs.io/en/latest/index.html) bedtools: a powerful toolset for genome arithmetic
 
 ### Usage:
 
