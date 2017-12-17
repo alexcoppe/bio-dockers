@@ -1,6 +1,8 @@
 FROM alpine
 
-ENV version 2.4.1
+MAINTAINER Alessandro Coppe
+
+ENV version 2.5.0
 
 ADD https://github.com/pezmaster31/bamtools/archive/v${version}.tar.gz /tmp/
 
@@ -14,7 +16,7 @@ RUN apk add --update --no-cache zlib-dev g++ \
         && cd build \
         && cmake .. \
         && make  \
-        && cd /tmp/bamtools && rm -rf CMakeLists.txt LICENSE README build docs src \
+        && cd /tmp/bamtools && rm -rf CMakeLists.txt LICENSE README docs src \
         && apk del deps
 
-ENTRYPOINT ["/tmp/bamtools/bin/bamtools"]
+ENTRYPOINT ["/tmp/bamtools/build/src/toolkit/bamtools"]
