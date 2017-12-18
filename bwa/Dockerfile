@@ -1,7 +1,7 @@
 FROM alpine
 
 
-ENV version 0.7.15
+ENV version 0.7.17
 
 ADD http://downloads.sourceforge.net/project/bio-bwa/bwa-${version}.tar.bz2 /tmp/
 
