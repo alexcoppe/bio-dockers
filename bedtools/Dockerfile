@@ -1,7 +1,7 @@
 FROM alpine:3.4
 
 
-ENV version 2.26.0
+ENV version 2.27.1
 
 ADD https://github.com/arq5x/bedtools2/releases/download/v${version}/bedtools-${version}.tar.gz /tmp/
 COPY launch_bedtools.sh /tmp/
