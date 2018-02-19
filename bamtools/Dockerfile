@@ -2,7 +2,7 @@ FROM alpine
 
 MAINTAINER Alessandro Coppe
 
-ENV version 2.5.0
+ENV version 2.5.1
 
 ADD https://github.com/pezmaster31/bamtools/archive/v${version}.tar.gz /tmp/
 
