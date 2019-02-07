@@ -19,8 +19,10 @@ before_install:
     - docker build -t alexcoppe/snpsift snpsift/
     - docker build -t alexcoppe/bedtools bedtools/
     - docker build -t alexcoppe/bamtools bamtools/
+    - docker build -t alexcoppe/trimmomatic trimmomatic/
 
 script:
+    - docker run -it --rm alexcoppe/trimmomatic
     - docker run -it --rm alexcoppe/fastqc
     - docker run -it --rm -v $(pwd):/data alexcoppe/picard SortVcf I=/data/test-data/sample.vcf O=/data/sorted.vcf 
     - docker run -it --rm alexcoppe/mutect -h
