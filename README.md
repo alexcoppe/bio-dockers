@@ -28,6 +28,7 @@ below for instruction on how to pull the images from [Dockerhub](https://hub.doc
 | [Samtools](https://github.com/alexcoppe/bio-dockers/tree/master/samtools) | A suite of programs for interacting with high-throughput sequencing data | 1.8 | 16.8 MB |
 | [SnpEff](https://github.com/alexcoppe/bio-dockers/tree/master/snpeff) | Genetic variant annotation and effect prediction toolbox | 4.3T | 353 MB |
 | [SnpSift](https://github.com/alexcoppe/bio-dockers/tree/master/snpsift) | A toolbox that allows you to filter and manipulate annotated files | 4.3T | 353 MB |
+| [Trimmomatic](https://github.com/alexcoppe/bio-dockers/tree/master/trimmomatic) | A flexible read trimming tool for Illumina NGS data | 0.38 | 172 MB |
 | [VarDictJava](https://github.com/alexcoppe/bio-dockers/tree/master/vardict) |  A variant discovery program written in Java and Perl. It is a partial Java port of VarDict variant caller | 1.5.1 | 631 MB |
 | [VarScan](https://github.com/alexcoppe/bio-dockers/tree/master/varscan) | Variant detection in massively parallel sequencing data | 2.4.3 | 124 MB |
 
