@@ -1,6 +1,6 @@
 FROM anapsix/alpine-java:jdk8
 
-ENV package_name fastqc_v0.11.7.zip
+ENV package_name fastqc_v0.11.8.zip
 
 ADD http://www.bioinformatics.babraham.ac.uk/projects/fastqc/${package_name} /tmp/
 
