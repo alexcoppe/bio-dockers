@@ -4,7 +4,7 @@ ENV version 0.69-6
 
 ADD http://circos.ca/distribution/circos-${version}.tgz /tmp/
 
-RUN     mkdir /opt && cd /opt/ \
+RUN     cd /opt/ \
         && tar xzvf /tmp/circos-${version}.tgz \
         && mv circos-${version} circos \
         && apk add --update --no-cache perl gd jpeg freetype \
