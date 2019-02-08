@@ -22,7 +22,7 @@ before_install:
     - docker build -t alexcoppe/trimmomatic trimmomatic/
 
 script:
-    - docker run -it --rm alexcoppe/trimmomatic
+    - docker run -it --rm alexcoppe/trimmomatic -version
     - docker run -it --rm alexcoppe/fastqc
     - docker run -it --rm -v $(pwd):/data alexcoppe/picard SortVcf I=/data/test-data/sample.vcf O=/data/sorted.vcf 
     - docker run -it --rm alexcoppe/mutect -h
