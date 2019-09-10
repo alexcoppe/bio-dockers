@@ -1,6 +1,6 @@
 FROM alpine
 
-ENV version 0.69-6
+ENV version 0.69-9
 
 ADD http://circos.ca/distribution/circos-${version}.tgz /tmp/
 

@@ -13,19 +13,19 @@ docker pull alexcoppe/circos
 
 To run an example from the circos package, download the original CIRCOS package and decompress it:
 ```
-wget http://circos.ca/distribution/circos-0.69-3.tgz
-tar xzvf circos-0.69-3.tgz
+wget http://circos.ca/distribution/circos-0.69-9.tgz
+tar xzvf circos-0.69-9.tgz
 ```
 
 Copy the data and the etc directory from the CIRCOS distribution to the current directory: 
 ```
-cp -R  circos-0.69-3/example/data .
-cp -R  circos-0.69-3/example/etc .
+cp -R  circos-0.69-9/example/data .
+cp -R  circos-0.69-9/example/etc .
 ```
 
 Copyt the CIRCOS configuration file to your current directory:
 ```
-cp  circos-0.69-3/example/etc/circos.conf .
+cp  circos-0.69-9/example/etc/circos.conf .
 ```
 
 Run the docker container:
