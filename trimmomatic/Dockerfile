@@ -1,7 +1,7 @@
 FROM anapsix/alpine-java:jdk8
 
 
-ENV trimmomatic_version 0.38
+ENV trimmomatic_version 0.39
 
 ADD http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/Trimmomatic-${trimmomatic_version}.zip /tmp/
 
