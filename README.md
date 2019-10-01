@@ -16,7 +16,7 @@ below for instruction on how to pull the images from [Dockerhub](https://hub.doc
 | Program        | Description| Version | Image size |
 | ------------- |:-------------| :-------------| :-------------|
 | [bamtools](https://github.com/alexcoppe/bio-dockers/tree/master/bamtools) |BamTools provides both a programmer's API and an end-user's toolkit for handling BAM files.| 2.5.1 | 161 MB |
-| [bedtools](https://github.com/alexcoppe/bio-dockers/tree/master/bedtools) |A powerful toolset for genome arithmetic| 2.27.1 | 77.1 MB |
+| [bedtools](https://github.com/alexcoppe/bio-dockers/tree/master/bedtools) |A powerful toolset for genome arithmetic| 2.29.0 | 169 MB |
 | [Burrows-Wheeler Aligner](https://github.com/alexcoppe/bio-dockers/tree/master/bwa) |BWA is a software package for mapping low-divergent sequences against a large reference genome| 0.7.17 | 8.9 MB |
 | [CIRCOS](https://github.com/alexcoppe/bio-dockers/tree/master/circos) |A software package for visualizing data in a circular layout  | 0.69-9 | 182 MB |
 | [FastQC](https://github.com/alexcoppe/bio-dockers/tree/master/fastqc) | A quality control tool for high throughput sequence data | 0.11.7 | 235 MB |
