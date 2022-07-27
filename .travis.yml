@@ -20,6 +20,7 @@ before_install:
     - docker build -t alexcoppe/bedtools bedtools/
     - docker build -t alexcoppe/bamtools bamtools/
     - docker build -t alexcoppe/trimmomatic trimmomatic/
+    - docker build -t alexcoppe/htseq2 htseq2/
 
 script:
     - docker run -it --rm alexcoppe/trimmomatic -version
@@ -36,3 +37,4 @@ script:
     - docker run --rm -it alexcoppe/snpsift filter -version
     - docker run --rm -it -v $(pwd):/data alexcoppe/bedtools intersectBed -a /data/test-data/sample.vcf -b /data/test-data/sample.vcf
     - docker run --rm -it alexcoppe/bamtools
+    - docker run --rm -it alexcoppe/htseq2 -h
